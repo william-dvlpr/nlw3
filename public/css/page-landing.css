@@ -9,8 +9,19 @@
     margin: auto;
     width: min(90vw, 1120px);
 }
+#logo {
+    animation-delay: 50ms;
+}
+.location {
+    animation-delay: 100ms;
+}
 .location, h1, .visit p {
     height: 16vh;
+}
+main h1 {
+    animation-delay: 150ms;
+    font-size: clamp(4rem, 8vw, 8.4rem);
+    margin: clamp(10%, 9vh, 12%) 0 4rem;
 }
 .visit a {
     width: 8rem;
@@ -23,32 +34,20 @@
     justify-content: center;
     margin: auto;
     transition: background 200ms;
+    animation-delay: 250ms;
 }
 .visit a:hover {
     background-color: #96feff;
 }
-#logo {
-    animation-delay: 50ms;
-}
-.location {
-    animation-delay: 100ms;
-}
-main h1 {
-    animation-delay: 150ms;
-    font-size: clamp(4rem, 8vw, 8.4rem);
-    margin: clamp(10%, 9vh, 12%) 0 4rem;
-}
 .visit p {
     animation-delay: 200ms;
 }
-.visit a {
-    animation-delay: 250ms;
-}
 
-/*desktop version*/
+/* Desktop version */
 
 @media (min-width: 760px) {
-    /*#page-landing{  notebook screen
+    /* [notebook screen]
+    #page-landing{
         padding-bottom: 100px;
     }*/
     #container {
