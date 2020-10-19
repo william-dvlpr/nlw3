@@ -1,15 +1,15 @@
 // craeate map
-const map = L.map('mapid').setView([-18.9165168, -48.2848777], 12);
+const map = L.map('mapid').setView([-18.9165168, -48.2848777], 16);
 
 // create and add tileLayer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 .addTo(map);
 
 // create icon
 const icon = L.icon({
     iconUrl: "./public/images/map-marker.svg",
     iconSize: [58, 68],
-    iconsAnchor: [29, 68],
+    iconAnchor: [29, 68],
     popupAnchor: [170, 2]
 })
 
