@@ -1,0 +1,25 @@
+#page-orphanage {
+    display: flex;
+    min-height: 100vh;
+}
+aside.sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 3.2rem 2.4rem;
+    background-color: #15C3D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+aside.sidebar footer button{
+    width: 4.8rem;
+    height: 4.8rem;
+    border: none;
+    border-radius: 1.6rem;
+    background-color: #12AFCB;
+    cursor: pointer;
+    
+}
+.with-sidebar {
+    padding-left: 11rem;
+}
